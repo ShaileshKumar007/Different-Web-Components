@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.block{
+    background-color: aqua;
+    margin: 2rem;
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+}
+.green{
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}
+.blue{
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+}
+.yellow{
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+}
+
+.hexCode{
+    display: none;
+}
+
+.strips:hover > div{
+    display: inline-block;
+    color: white;
+    background-color: rgba(73, 69, 69, 0.2);
+}
+
+.strips:hover{
+    cursor: pointer;
+}
