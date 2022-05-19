@@ -8,13 +8,14 @@
     row-gap: 2rem;
 }
 
-.block{
-    background-color: aqua;
+.palette{
+    /* background-color: aqua; */
     margin: 2rem;
     width: 200px;
     height: 200px;
 }
 
+/* ************ CSS for Colors block ************  */
 .red{
     background-color: red;
     width: 200px;
@@ -36,14 +37,16 @@
     height: 50px;
 }
 
+/* ************ making hex-code initially none ************  */
 .hexCode{
     display: none;
 }
 
+/* ************ hover effect ************  */
 .strips:hover > div{
     display: inline-block;
     color: white;
-    background-color: rgba(73, 69, 69, 0.2);
+    background-color: rgba(50, 46, 46, 0.4);
 }
 
 .strips:hover{
